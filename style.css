@@ -1,0 +1,74 @@
+body{
+  background-color: white;
+}
+
+.flex-container{
+  display: flex;
+  border: 1px solid white;
+  background: white;
+  padding: 5px;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+.caja{
+  border: 1px solid white;
+  background-color: white;
+  font-weight: bold;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  line-height: 50px;
+  margin: 10px;
+
+}
+
+.logo{
+  height: 50px;
+  width: 50px;
+}
+
+.c5{
+  background-color: white;
+  flex-grow: 5;
+  flex-basis: 100%;
+
+}
+
+.input{
+  height: 40px;
+  width: 850px;
+  background-color: #d0d0d0;
+}
+
+.notificaciones{
+  height: 50px;
+  width: 50px;
+}
+
+.mensajes{
+  height: 50px;
+  width: 50px;
+}
+
+.contenido{
+  display: flex;
+  border: 1px solid white;
+  background: white;
+  padding: 5px;
+  flex-direction:row;
+  justify-content:space-between;
+  flex-flow:wrap;
+  
+  
+}
+
+img{
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+  width: auto;
+  
+}
+
